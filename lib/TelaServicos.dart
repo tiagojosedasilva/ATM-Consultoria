@@ -15,6 +15,7 @@ class _TelaServicosState extends State<TelaServicos> {
         backgroundColor: Colors.green,
         title: Text("Servicos"),
       ),
+      body: SingleChildScrollView(),
     );
   }
 }
